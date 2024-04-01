@@ -1,7 +1,7 @@
 (() => {
   async function fetchAnswer() {
     try {
-      let KEY = "key";
+      let KEY = "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";
       let directions = document.getElementById("directions").innerText;
       let question = document.getElementById("question").innerText;
       let answers = document.getElementsByClassName("answer-option");
